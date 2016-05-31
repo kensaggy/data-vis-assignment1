@@ -77,7 +77,7 @@
         .attr("transform", "rotate(-90)")
         .attr("y", (-margin.left) + 10)
         .attr("x", -height/2)
-        .text('Temperature (ºF)');
+        .text('Deviation');
 
     svg.append("clipPath")
         .attr("id", "clip")
